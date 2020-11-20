@@ -9,12 +9,11 @@ The models we currently have in mind are summarized in the following table
 but feel free to reach out to us by raising an issue on Github
 if you would like to contribute with your dataset.
 
-+------------+----------------+-------------------+-------------+
-| Model name | Basin coverage | Resolution        | Institution |
-+============+================+===================+=============+
-| eNATL60    | North Atlantic | 1/60:math:`^\circ`| MEOM        |
-| MEGATL     | North Atlantic | 1/60:math:`^\circ`| LOPS        |
-| HYCOM50    | North Atlantic | 1/50:math:`^\circ`| COAPS       |
-| llc4320    | Global         | 1/48:math:`^\circ`| JPL         |
-| lNATL60    | Agulhas region | 1/60:math:`^\circ`| GEOMAR      |
-+------------+----------------+-------------------+-------------+
+=========== =============== ================== ============
+Model name  Basin coverage  Resolution         Institution
+=========== =============== ================== ============
+eNATL60     North Atlantic  :math:`1/60^\circ` MEOM
+MEGATL      North Atlantic  :math:`1/60^\circ` LOPS
+HYCOM50     North Atlantic  :math:`1/50^\circ` COAPS
+llc4320     Global          :math:`1/48^\circ` JPL         
+lNATL60     Agulhas region  :math:`1/60^\circ` GEOMAR
