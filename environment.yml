@@ -4,6 +4,8 @@ channels:
 dependencies:
   - python=3.8
   - intake
+  - requests
+  - aiohttp
   - xarray
   - netcdf4
   - jupyter
