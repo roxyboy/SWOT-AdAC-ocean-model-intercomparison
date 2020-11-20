@@ -1,0 +1,19 @@
+name: Xover
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - xarray
+  - netcdf4
+  - dask
+  - numpy
+  - scipy
+  - matplotlib
+  - pip
+  - zarr
+  - xgcm
+  - xmitgcm
+  - xrft
+  - cartopy
+  - gsw
+  - numba
