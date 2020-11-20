@@ -10,12 +10,12 @@ but feel free to reach out to us by raising an
 `issue on Github <https://github.com/roxyboy/SWOT-AdAC-ocean-model-intercomparison/issues>`_
 if you would like to contribute with your dataset.
 
-===========  ===============  =============  ============
-Model name   Basin coverage   Resolution     Institution
-===========  ===============  =============  ============
-eNATL60      North Atlantic   :math:`1/60`   MEOM
-MEGATL       North Atlantic   :math:`1/60`   LOPS
-HYCOM50      North Atlantic   :math:`1/50`   COAPS
-llc4320      Global           :math:`1/48`   JPL
-lNATL60      Agulhas region   :math:`1/60`   GEOMAR
-===========  ===============  =============  ============
+================  ===============  =============  =======  ============
+Simulation name   Basin coverage   Resolution     Model    Institution
+================  ===============  =============  =======  ============
+eNATL60           North Atlantic   :math:`1/60`   NEMO     MEOM
+MEGATL            North Atlantic   :math:`1/60`   CROCO    LOPS
+HYCOM50           North Atlantic   :math:`1/50`   HYCOM    COAPS
+llc4320           Global           :math:`1/48`   MITgcm   JPL
+lNATL60           Agulhas region   :math:`1/60`   NEMO     GEOMAR
+================  ===============  =============  =======  ============
