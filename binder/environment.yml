@@ -10,6 +10,7 @@ dependencies:
   - dask_kubernetes
   - intake
   - numpy
+  - numpy_groupies
   - netCDF4
   - scipy
   - pandas
