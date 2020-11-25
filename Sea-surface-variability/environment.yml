@@ -7,7 +7,7 @@ dependencies:
   - xarray
   - zarr
   - dask
-  - dask_kubernetes
+  - dask-jobqueue
   - intake
   - numpy
   - numpy_groupies
