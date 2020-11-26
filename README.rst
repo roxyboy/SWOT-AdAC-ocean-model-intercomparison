@@ -19,3 +19,16 @@ HYCOM50           North Atlantic   :math:`1/50`   HYCOM    COAPS
 llc4320           Global           :math:`1/48`   MITgcm   JPL
 lNATL60           Agulhas region   :math:`1/60`   NEMO     GEOMAR
 ================  ===============  =============  =======  ============
+
+The initial four regions of study will be in the Gulf Stream (region 1),
+mid-Atlantic (region 2), Mediterranean Sea (region 3)
+and the Agulhas Current (region 4). The regions are shown in the figure below:
+
+.. figure:: img/SWOT-Xover-paths.pdf
+    :width: 200px
+    :align: center
+    :height: 300px
+    :alt: alternate text
+    :figclass: align-center
+
+    The SWOT fast-sampling-phase trajectories and the four regions are shown.
