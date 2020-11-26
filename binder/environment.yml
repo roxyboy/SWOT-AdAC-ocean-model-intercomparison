@@ -22,7 +22,7 @@ dependencies:
   - nbserverproxy
   - jupyter
   - jupyterlab
-  - jupyter_client
+  # - jupyter_client
   - dask_labextension
   - ipywidgets
   - graphviz
