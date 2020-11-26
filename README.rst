@@ -22,13 +22,12 @@ lNATL60           Agulhas region   :math:`1/60`   NEMO     GEOMAR
 
 The initial four regions of study will be in the Gulf Stream (region 1),
 mid-Atlantic (region 2), Mediterranean Sea (region 3)
-and the Agulhas Current (region 4). The regions are shown in the figure below:
+and the Agulhas Current (region 4). The regions are shown in the figure below
+along with the SWOT fast-sampling-phase trajectories:
 
 .. figure:: ./img/SWOT-Xover-paths.png
-    :width: 200px
+    :width: 300px
     :align: center
-    :height: 300px
+    :height: 280px
     :alt: alternate text
     :figclass: align-center
-
-    The SWOT fast-sampling-phase trajectories and the four regions are shown.
