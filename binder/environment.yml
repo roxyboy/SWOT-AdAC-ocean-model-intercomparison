@@ -3,7 +3,7 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python=3.6
+  - python=3.8
   - numpy
   - numpy_groupies
   - scipy
@@ -21,9 +21,9 @@ dependencies:
   - nomkl
   - nbserverproxy
   - jupyter
-  - jupyterlab=0.35
-  - jupyterlab_launcher
+  - jupyterlab
   - jupyter_client
+  - dask_labextension
   - ipywidgets
   - graphviz
   - nodejs
