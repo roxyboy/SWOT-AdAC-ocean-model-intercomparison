@@ -15,6 +15,6 @@ Features
 
 .. _pangeo.binder.io: http://binder.pangeo.io/
 
-.. |Binder| image:: http://binder.pangeo.io/badge.svg
-    :target: http://binder.pangeo.io/v2/gh/roxyboy/sea_surface_variability/master
+.. |Binder| image:: https://binder.pangeo.io/badge_logo.svg
+   :target: https://binder.pangeo.io/v2/gh/roxyboy/SWOT-AdAC-ocean-model-intercomparison/master
 
