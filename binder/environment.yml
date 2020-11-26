@@ -25,7 +25,7 @@ dependencies:
   - jupyter_client
   - ipywidgets
   - graphviz
-  - nodejs
+  - nodejs=v8
   - xmitgcm
   - xgcm
   - xrft
