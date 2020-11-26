@@ -24,7 +24,7 @@ The initial four regions of study will be in the Gulf Stream (region 1),
 mid-Atlantic (region 2), Mediterranean Sea (region 3)
 and the Agulhas Current (region 4). The regions are shown in the figure below:
 
-.. figure:: img/SWOT-Xover-paths.pdf
+.. figure:: ./img/SWOT-Xover-paths.png
     :width: 200px
     :align: center
     :height: 300px
