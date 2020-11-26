@@ -1,3 +1,0 @@
-hub:
-  networkPolicy:
-    enabled: false
