@@ -14,6 +14,7 @@ dependencies:
  - dask-ml
  - datashader>=0.11
  - descartes
+ - distributed==2.14.0
  - eofs
  - esmpy
  - fastjmd95
