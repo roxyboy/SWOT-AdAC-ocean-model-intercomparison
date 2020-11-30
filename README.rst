@@ -39,6 +39,8 @@ and a `yaml file to catalog <https://intake.readthedocs.io/en/latest/catalog.htm
 the data per cross-over region.
 Please also provide the information regarding the equation of state used for density.
 
+Example notebooks of analyzing sea-surface data are given 
+`here <https://github.com/roxyboy/SWOT-AdAC-ocean-model-intercomparison/tree/master/sea_surface_variability>`_.
 
 .. _eNATL60: https://catalog.pangeo.io/browse/master/ocean/MEOM_NEMO/
 .. _llc4320: https://catalog.pangeo.io/browse/master/ocean/LLC4320/
