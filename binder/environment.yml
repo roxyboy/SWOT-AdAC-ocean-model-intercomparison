@@ -3,7 +3,7 @@ channels:
  - conda-forge
 dependencies:
  - python=3.7*
- - pangeo-notebook=2020.08.31
+ - pangeo-notebook=2020.11.06
  - pip=20
  - awscli
  - bottleneck
@@ -11,7 +11,7 @@ dependencies:
  - cartopy>=0.18
  - cfgrib
  - ciso
- - dask-gateway<0.9
+ - dask-gateway>0.9
  - dask-ml
  - datashader>=0.11
  - descartes
