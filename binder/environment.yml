@@ -11,6 +11,7 @@ dependencies:
  - cartopy>=0.18
  - cfgrib
  - ciso
+ - dask-gateway<0.9
  - dask-ml
  - datashader>=0.11
  - descartes
