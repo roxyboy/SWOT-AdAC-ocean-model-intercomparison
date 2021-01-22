@@ -42,11 +42,9 @@ We recommend zarrifying the dataset with the following command:
 .. code-block:: python
 
    compressor = numcodecs.Blosc(cname='snappy', clevel=6, shuffle=-1)
-.. code-block:: python
-
+   
    encoding = {vname:{'compressor': compressor} for vname in ds.variables}
-.. code-block:: python
-
+   
    ds.to_zarr(path, mode='w')
    
 Please also provide the information regarding the coordinate system and equation of state used for density.
