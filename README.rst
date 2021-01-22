@@ -39,6 +39,7 @@ In order to allow for efficient cloud storage, we ask you to provide the dataset
 and a `yaml file to catalog <https://intake.readthedocs.io/en/latest/catalog.html#yaml-format>`_ 
 the data per cross-over region.
 We recommend zarrifying the dataset with the following command:
+
 .. code-block:: python
 
    compressor = numcodecs.Blosc(cname='snappy', clevel=6, shuffle=-1)
