@@ -1,7 +1,7 @@
 SWOT Adopt-A-Xover ocean model intercomparison study
 ====================================================
 
-With the upcoming launch of the Surface Water and Ocean Topography (SWOT) satellite in 2021
+With the upcoming launch of the Surface Water and Ocean Topography (SWOT) satellite in 2022
 and advent of submesoscale-permitting basin-scale simulations,
 we would like to formulate a baseline
 to compare the upcoming observations of submesoscale turbulence.
