@@ -18,9 +18,9 @@ llc4320_          Global           :math:`1/48`             MITgcm   JPL
 lNATL60           Agulhas region   :math:`1/60`             NEMO     GEOMAR
 ================  ===============  =======================  =======  ============
 
-The initial four regions of study will be in the Gulf Stream (78-69.5W, 30-40N; region 1),
-mid-Atlantic (52.5-44W, 30.5-40.5N; region 2), Mediterranean Sea (0.5W-8E, 35.5-43N; region 3)
-and the Agulhas Current (11.5-20E, 40.5-30.5S; region 4). 
+The initial four regions of study will be in the Gulf Stream (78W-69.5W, 30N-40N; region 1),
+mid-Atlantic (52.5W-44W, 30.5N-40.5N; region 2), Mediterranean Sea (0.5W-8E, 35.5N-43.5N; region 3)
+and the Agulhas Current (11.5E-20E, 40.5S-30.5S; region 4). 
 The regions are shown in the figure below
 along with the SWOT fast-sampling-phase trajectories:
 
