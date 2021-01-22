@@ -11,7 +11,7 @@ The models we currently have in mind are summarized in the following table:
 Simulation name   Basin coverage   Resolution               Model    Institution
 ================  ===============  =======================  =======  ============
 eNATL60_          North Atlantic   :math:`1/60`             NEMO     MEOM
-MEDWEST60         Mediterranean    :math:`1/60` (ensemble)  NEMO     MEOM
+MEDWEST60_        Mediterranean    :math:`1/60` (ensemble)  NEMO     MEOM
 MEGATL            North Atlantic   :math:`1/60`             CROCO    LOPS
 HYCOM50           North Atlantic   :math:`1/50`             HYCOM    COAPS
 llc4320_          Global           :math:`1/48`             MITgcm   JPL
@@ -38,7 +38,7 @@ In order to allow for efficient cloud storage, we ask you to provide the dataset
 `zarr <https://zarr.readthedocs.io/en/stable/spec/v2.html>`_ format
 and a `yaml file to catalog <https://intake.readthedocs.io/en/latest/catalog.html#yaml-format>`_ 
 the data per cross-over region.
-We recommend zarrifying the dataset with the following command:
+We recommend `zarrifying <https://zarr.readthedocs.io/en/stable/tutorial.html#compressors>`_ the dataset with the following command:
 
 .. code-block:: python
 
@@ -54,4 +54,5 @@ Example notebooks of analyzing sea-surface data are given
 `here <https://github.com/roxyboy/SWOT-AdAC-ocean-model-intercomparison/tree/master/sea_surface_variability>`_.
 
 .. _eNATL60: https://catalog.pangeo.io/browse/master/ocean/MEOM_NEMO/
+.. _MEDWEST60: https://presentations.copernicus.org/EGU2020/EGU2020-11127_presentation.pdf
 .. _llc4320: https://catalog.pangeo.io/browse/master/ocean/LLC4320/
