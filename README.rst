@@ -12,10 +12,10 @@ Simulation name   Basin coverage   Resolution               Model    Institution
 ================  ===============  =======================  =======  ============
 eNATL60_          North Atlantic   :math:`1/60`             NEMO     MEOM
 MEDWEST60_        Mediterranean    :math:`1/60` (ensemble)  NEMO     MEOM
-MEGATL            North Atlantic   :math:`1/60`             CROCO    LOPS
+GIGATL            North Atlantic   :math:`1/60`             CROCO    LOPS
 HYCOM50           North Atlantic   :math:`1/50`             HYCOM    COAPS
 llc4320_          Global           :math:`1/48`             MITgcm   JPL
-lNATL60           Agulhas region   :math:`1/60`             NEMO     GEOMAR
+lNALT60           Agulhas region   :math:`1/60`             NEMO     GEOMAR
 ================  ===============  =======================  =======  ============
 
 The initial four regions of study will be in the Gulf Stream (78W-69.5W, 30N-40N; region 1),
