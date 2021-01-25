@@ -12,7 +12,7 @@ Simulation name   Basin coverage   Resolution               Model    Institution
 ================  ===============  =======================  =======  ============
 eNATL60_          North Atlantic   :math:`1/60`             NEMO     MEOM
 MEDWEST60_        Mediterranean    :math:`1/60` (ensemble)  NEMO     MEOM
-GIGATL            North Atlantic   :math:`1/60`             CROCO    LOPS
+GIGATL            Atlantic         :math:`1/60`             CROCO    LOPS
 HYCOM50           North Atlantic   :math:`1/50`             HYCOM    COAPS
 llc4320_          Global           :math:`1/48`             MITgcm   JPL
 lNALT60           Agulhas region   :math:`1/60`             NEMO     GEOMAR
