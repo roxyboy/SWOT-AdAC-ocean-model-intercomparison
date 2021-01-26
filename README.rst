@@ -34,6 +34,8 @@ along with the SWOT fast-sampling-phase trajectories:
 Pending on the success of these four regions, we will increase the number of regions to 10.
 If you would like to contribute with your dataset, please to reach out to us by raising an
 `issue on Github <https://github.com/roxyboy/SWOT-AdAC-ocean-model-intercomparison/issues>`_.
+We are currently in the process of setting up a project-specific cloud storage and Jupyterhub
+where collaborators involved would have access to the data and Python-based analytical tools.
 In order to allow for efficient cloud storage, we ask you to provide the dataset in 
 `zarr <https://zarr.readthedocs.io/en/stable/spec/v2.html>`_ format
 and a `yaml file to catalog <https://intake.readthedocs.io/en/latest/catalog.html#yaml-format>`_ 
