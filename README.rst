@@ -38,7 +38,7 @@ We are currently in the process of setting up a project-specific cloud storage a
 where collaborators involved would have access to the data and Python-based analytical tools.
 In order to allow for efficient cloud storage, we ask you to provide the dataset in 
 `zarr <https://zarr.readthedocs.io/en/stable/spec/v2.html>`_ format
-and a `yaml file to catalog <https://intake.readthedocs.io/en/latest/catalog.html#yaml-format>`_ 
+and a `yaml file to catalog <https://intake-esm.readthedocs.io/en/latest/>`_ 
 the data per cross-over region.
 We recommend `zarrifying <https://zarr.readthedocs.io/en/stable/tutorial.html#compressors>`_ the dataset with the following command:
 
