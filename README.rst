@@ -37,7 +37,7 @@ If you would like to contribute with your dataset, please reach out to us by rai
 We are currently in the process of setting up a project-specific cloud storage and Jupyterhub
 where collaborators involved would have access to the data and Python-based analytical tools.
 In order to allow for efficient cloud storage, we ask you to provide the regional dataset in 
-netCDF4 format and a FTP or OPeNDAP link (e.g. `Region 3 for eNATL60 <https://ige-meom-opendap.univ-grenoble-alpes.fr/thredds/catalog/meomopendap/extract/SWOT-Adac/Interior/eNATL60/catalog.html>`_) for us to push the data onto the cloud and `zarrify <https://pangeo-forge.readthedocs.io/en/latest/tutorials/netcdf_zarr_sequential.html>` them.
+netCDF4 format and a FTP or OPeNDAP link (e.g. `Region 3 for eNATL60 <https://ige-meom-opendap.univ-grenoble-alpes.fr/thredds/catalog/meomopendap/extract/SWOT-Adac/Interior/eNATL60/catalog.html>`_) for us to push the data onto the cloud and `zarrify <https://pangeo-forge.readthedocs.io/en/latest/tutorials/netcdf_zarr_sequential.html>`_ them.
    
 Please also provide the information regarding the coordinate system and equation of state used for density.
 
