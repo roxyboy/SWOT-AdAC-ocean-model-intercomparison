@@ -36,19 +36,8 @@ If you would like to contribute with your dataset, please reach out to us by rai
 `issue on Github <https://github.com/roxyboy/SWOT-AdAC-ocean-model-intercomparison/issues>`_.
 We are currently in the process of setting up a project-specific cloud storage and Jupyterhub
 where collaborators involved would have access to the data and Python-based analytical tools.
-In order to allow for efficient cloud storage, we ask you to provide the dataset in 
-`zarr <https://zarr.readthedocs.io/en/stable/spec/v2.html>`_ format
-and a `yaml file to catalog <https://intake-esm.readthedocs.io/en/latest/>`_ 
-the data per cross-over region.
-We recommend `zarrifying <https://zarr.readthedocs.io/en/stable/tutorial.html#compressors>`_ the dataset with the following command:
-
-.. code-block:: python
-
-   compressor = numcodecs.Blosc(cname='snappy', clevel=6, shuffle=-1)
-   
-   encoding = {vname:{'compressor': compressor} for vname in ds.variables}
-   
-   ds.to_zarr(path, mode='w')
+In order to allow for efficient cloud storage, we ask you to provide the regional dataset in 
+netCDF4 format and a FTP or OPeNDAP link (e.g. `Region 3 for eNATL60 <https://ige-meom-opendap.univ-grenoble-alpes.fr/thredds/catalog/meomopendap/extract/SWOT-Adac/Interior/eNATL60/catalog.html>`_) for us to push the data onto the cloud and `zarrify <https://pangeo-forge.readthedocs.io/en/latest/tutorials/netcdf_zarr_sequential.html>` them.
    
 Please also provide the information regarding the coordinate system and equation of state used for density.
 
