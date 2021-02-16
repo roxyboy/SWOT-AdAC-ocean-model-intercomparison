@@ -1,4 +1,4 @@
-SWOT Adopt-A-Xover ocean model intercomparison study
+OT Adopt-A-Xover ocean model intercomparison study
 ====================================================
 
 With the upcoming launch of the Surface Water and Ocean Topography (SWOT) satellite in 2022
@@ -19,7 +19,7 @@ lNALT60           Agulhas region   :math:`1/60`             NEMO     GEOMAR
 ================  ===============  =======================  =======  ============
 
 The initial four regions of study will be in the Gulf Stream (78W-68W, 30N-40N; region 1),
-mid-Atlantic (54W-44W, 30N-40N; region 2), Mediterranean Sea (0.5W-8E, 35.5N-43.5N; region 3)
+mid-Atlantic (54W-44W, 30N-40N; region 2), Mediterranean Sea (2W-8E, 35.5N-43.5N; region 3)
 and the Agulhas Current (11.5E-20E, 40.5S-30.5S; region 4). 
 The regions are shown in the figure below
 along with the SWOT fast-sampling-phase trajectories:
