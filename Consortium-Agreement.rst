@@ -4,7 +4,7 @@ Consortium Agreement
 This document explains the commitments of each of the parties involved in the pre-SWOT launch Adopt-A-Crossover ocean model inter-comparison study (hereon SWOT-AdAC).
 
 The study is organised by `Takaya Uchida <https://roxyboy.github.io/>`_ and `Julien Le Sommer <http://lesommer.github.io/>`_
-from IGE with contributions from several collaborators (inc. data providers).
+from IGE with contributions from several collaborators (including data providers).
 
 Agreeing to contribute to the SWOT-AdAC study as a data provider entails the following :
  * Providing ocean model data according to the `data request <./Data-Request.rst>`_ for at least one of the cross-over regions and one of the seasons;

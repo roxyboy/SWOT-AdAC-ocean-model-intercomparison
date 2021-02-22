@@ -16,6 +16,8 @@ GIGATL            Atlantic         :math:`1 km`             CROCO    LOPS
 HYCOM50           North Atlantic   :math:`1/50`             HYCOM    COAPS
 llc4320_          Global           :math:`1/48`             MITgcm   JPL
 lNALT60           Agulhas region   :math:`1/60`             NEMO     GEOMAR
+FESOM             North Atlantic   :math:`1 km`             FESOM    AWI
+ICON-O            North Atlantic   :math:`600 m`            ICON-O   MPI
 ================  ===============  =======================  =======  ============
 
 The initial four regions of study will be in the Gulf Stream (78W-68W, 30N-40N; region 1),
@@ -32,18 +34,18 @@ along with the SWOT fast-sampling-phase trajectories:
     :figclass: align-center
 
 Pending on the success of these four regions, we will increase the number of regions to 10.
-If you would like to contribute with your dataset, please reach out to us by raising an
+If you would like to contribute with your dataset, please read the `Consortium Agreement <./Consortium-Agreement.rst>`_
+and reach out to us by raising an
 `issue on Github <https://github.com/roxyboy/SWOT-AdAC-ocean-model-intercomparison/issues>`_.
 We are currently in the process of setting up a project-specific cloud storage and Jupyterhub
 where collaborators involved would have access to the data and Python-based analytical tools.
 In order to allow for efficient cloud storage, we ask you to provide the regional dataset in
-netCDF4 format and a FTP or OPeNDAP link (e.g. `Region 3 for eNATL60 <https://ige-meom-opendap.univ-grenoble-alpes.fr/thredds/catalog/meomopendap/extract/SWOT-Adac/Interior/eNATL60/catalog.html>`_) for us to push the data onto the cloud and `zarrify <https://pangeo-forge.readthedocs.io/en/latest/tutorials/netcdf_zarr_sequential.html>`_ them.
-
-Please also provide the information regarding the coordinate system and equation of state used for density.
+netCDF4 format and a FTP or OPeNDAP link (e.g. `eNATL60 <https://ige-meom-opendap.univ-grenoble-alpes.fr/thredds/catalog/meomopendap/extract/SWOT-Adac/catalog.html>`_) for us to push the data onto the cloud and `zarrify <https://pangeo-forge.readthedocs.io/en/latest/tutorials/netcdf_zarr_sequential.html>`_ them.
 
 Example notebooks of analyzing sea-surface data are given
 `here <https://github.com/roxyboy/SWOT-AdAC-ocean-model-intercomparison/tree/master/sea_surface_variability>`_.
 
-.. _eNATL60: https://catalog.pangeo.io/browse/master/ocean/MEOM_NEMO/
+
+.. _eNATL60: https://vimeo.com/300943265
 .. _MEDWEST60: https://presentations.copernicus.org/EGU2020/EGU2020-11127_presentation.pdf
 .. _llc4320: https://catalog.pangeo.io/browse/master/ocean/LLC4320/
