@@ -34,7 +34,7 @@ along with the SWOT fast-sampling-phase trajectories:
     :figclass: align-center
 
 Pending on the success of these four regions, we will increase the number of regions to 10.
-If you would like to contribute with your dataset, please read the `Consortium Agreement <./Consortium-Agreement.rst>`
+If you would like to contribute with your dataset, please read the `Consortium Agreement <./Consortium-Agreement.rst>`_
 and reach out to us by raising an
 `issue on Github <https://github.com/roxyboy/SWOT-AdAC-ocean-model-intercomparison/issues>`_.
 We are currently in the process of setting up a project-specific cloud storage and Jupyterhub
