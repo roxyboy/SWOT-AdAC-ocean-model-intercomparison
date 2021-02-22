@@ -17,12 +17,13 @@ HYCOM50           North Atlantic   :math:`1/50`             HYCOM    COAPS
 llc4320_          Global           :math:`1/48`             MITgcm   JPL
 lNALT60           Agulhas region   :math:`1/60`             NEMO     GEOMAR
 FESOM             North Atlantic   :math:`1 km`             FESOM    AWI
-ICON-O            North Atlantic   :math:`600 m`            ICON-O   MPI-M
+ICON-O_           North Atlantic   :math:`600 m`            ICON-O   MPI-M
 ================  ===============  =======================  =======  ============
 
 .. _eNATL60: https://vimeo.com/300943265
 .. _MEDWEST60: https://presentations.copernicus.org/EGU2020/EGU2020-11127_presentation.pdf
 .. _llc4320: https://catalog.pangeo.io/browse/master/ocean/LLC4320/
+.. _ICON-O: https://mpimet.mpg.de/en/communication/multimedia/visualizations/translate-to-englisch-submesoscale-telescope-experiment
 
 The initial four regions of study will be in the Gulf Stream (78W-68W, 30N-40N; region 1),
 mid-Atlantic (54W-44W, 30N-40N; region 2), Mediterranean Sea (2W-8E, 35.5N-43.5N; region 3)
