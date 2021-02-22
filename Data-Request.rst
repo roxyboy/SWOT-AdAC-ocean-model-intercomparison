@@ -32,7 +32,8 @@ If the native grid of the model is not Cartesian and/or in geopotential coordina
 or
 ii) provide us with scripts to do the re-gridding (preferably in Python so that we can execute them on the Jupyterhub).
 
-Please make the data accessible in netCDF4 format via an ftp or OPeNDAP link (e.g. `eNATL60 <https://ige-meom-opendap.univ-grenoble-alpes.fr/thredds/catalog/meomopendap/extract/SWOT-Adac/catalog.html>`_)
+Please make the data accessible via an HTTP, FTP or OPeNDAP link (e.g. `eNATL60 <https://ige-meom-opendap.univ-grenoble-alpes.fr/thredds/catalog/meomopendap/extract/SWOT-Adac/catalog.html>`_)
+in addition to documentation on how the files are named and organized
 for us to `zarryify the data <https://pangeo-forge.readthedocs.io/en/latest/tutorials/netcdf_zarr_sequential.html>`_ and pull them onto the cloud storage.
 
 Depending on the success of the four regions, we plan to expand our analysis up to 10 cross-over regions.
