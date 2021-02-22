@@ -1,4 +1,4 @@
-OT Adopt-A-Xover ocean model intercomparison study
+SWOT Adopt-A-Xover ocean model intercomparison study
 ====================================================
 
 With the upcoming launch of the Surface Water and Ocean Topography (SWOT) satellite in 2022
@@ -20,7 +20,7 @@ lNALT60           Agulhas region   :math:`1/60`             NEMO     GEOMAR
 
 The initial four regions of study will be in the Gulf Stream (78W-68W, 30N-40N; region 1),
 mid-Atlantic (54W-44W, 30N-40N; region 2), Mediterranean Sea (2W-8E, 35.5N-43.5N; region 3)
-and the Agulhas Current (11.5E-20E, 40.5S-30.5S; region 4). 
+and the Agulhas Current (11.5E-20E, 40.5S-30.5S; region 4).
 The regions are shown in the figure below
 along with the SWOT fast-sampling-phase trajectories:
 
@@ -30,18 +30,18 @@ along with the SWOT fast-sampling-phase trajectories:
     :height: 280px
     :alt: alternate text
     :figclass: align-center
-    
+
 Pending on the success of these four regions, we will increase the number of regions to 10.
 If you would like to contribute with your dataset, please reach out to us by raising an
 `issue on Github <https://github.com/roxyboy/SWOT-AdAC-ocean-model-intercomparison/issues>`_.
 We are currently in the process of setting up a project-specific cloud storage and Jupyterhub
 where collaborators involved would have access to the data and Python-based analytical tools.
-In order to allow for efficient cloud storage, we ask you to provide the regional dataset in 
+In order to allow for efficient cloud storage, we ask you to provide the regional dataset in
 netCDF4 format and a FTP or OPeNDAP link (e.g. `Region 3 for eNATL60 <https://ige-meom-opendap.univ-grenoble-alpes.fr/thredds/catalog/meomopendap/extract/SWOT-Adac/Interior/eNATL60/catalog.html>`_) for us to push the data onto the cloud and `zarrify <https://pangeo-forge.readthedocs.io/en/latest/tutorials/netcdf_zarr_sequential.html>`_ them.
-   
+
 Please also provide the information regarding the coordinate system and equation of state used for density.
 
-Example notebooks of analyzing sea-surface data are given 
+Example notebooks of analyzing sea-surface data are given
 `here <https://github.com/roxyboy/SWOT-AdAC-ocean-model-intercomparison/tree/master/sea_surface_variability>`_.
 
 .. _eNATL60: https://catalog.pangeo.io/browse/master/ocean/MEOM_NEMO/
