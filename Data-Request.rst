@@ -28,10 +28,9 @@ The four regions are :
 Please also provide information on the equation of state for density
 and a grid file which contains information regarding land masks and grid spacings etc.
 
-If the native grid of the model is not Cartesian and/or in geopotential coordinates, we ask the modelling group to either :
- * Provide the outputs re-gridded onto a Cartesian geopotential coordinate;
+If the native grid of the model is not Cartesian and/or in geopotential coordinates, we ask the modelling group to either i) provide the outputs re-gridded onto a Cartesian geopotential coordinate
 or
- * Provide us with scripts to do the re-gridding (preferably in Python so that we can execute them on the Jupyterhub).
+ii) provide us with scripts to do the re-gridding (preferably in Python so that we can execute them on the Jupyterhub).
 
 Please make the data accessible in netCDF4 format via an ftp or OPeNDAP link (e.g. `eNATL60 <https://ige-meom-opendap.univ-grenoble-alpes.fr/thredds/catalog/meomopendap/extract/SWOT-Adac/catalog.html>`_)
 for us to `zarryify the data <https://pangeo-forge.readthedocs.io/en/latest/tutorials/netcdf_zarr_sequential.html>`_ and pull them onto the cloud storage.
