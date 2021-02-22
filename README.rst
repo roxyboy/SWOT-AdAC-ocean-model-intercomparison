@@ -45,6 +45,7 @@ netCDF4 format and a FTP or OPeNDAP link (e.g. `eNATL60 <https://ige-meom-openda
 Example notebooks of analyzing sea-surface data are given
 `here <https://github.com/roxyboy/SWOT-AdAC-ocean-model-intercomparison/tree/master/sea_surface_variability>`_.
 
-.. _eNATL60: https://catalog.pangeo.io/browse/master/ocean/MEOM_NEMO/
+
+.. _eNATL60: https://vimeo.com/300943265
 .. _MEDWEST60: https://presentations.copernicus.org/EGU2020/EGU2020-11127_presentation.pdf
 .. _llc4320: https://catalog.pangeo.io/browse/master/ocean/LLC4320/
