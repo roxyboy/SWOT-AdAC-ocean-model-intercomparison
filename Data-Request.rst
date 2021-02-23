@@ -28,12 +28,14 @@ The four regions are :
 Please also provide information on the equation of state for density
 and a grid file which contains information regarding land masks and grid spacings etc.
 
-If the native grid of the model is unstructured and/or not in geopotential coordinates, we ask the modelling group to either i) provide the outputs re-gridded onto a structured geopotential coordinate
-or
-ii) provide us with scripts to do the re-gridding (preferably in Python so that we can execute them on the Jupyterhub).
+If the native grid of the model is unstructured and/or not in geopotential
+coordinates, we ask the modelling group to either i) provide the outputs
+re-gridded onto a structured geopotential coordinate,
+ii) provide us with scripts to do the re-gridding (preferably in Python so that we can execute them on the Jupyterhub) or 
+iii) provide us with scripts to diagnose the model outputs on their native grid (also preferably in Python).
 
 Please make the data accessible via an HTTP, FTP or OPeNDAP link (e.g. `eNATL60 <https://ige-meom-opendap.univ-grenoble-alpes.fr/thredds/catalog/meomopendap/extract/SWOT-Adac/catalog.html>`_)
-in addition to documentation on how the files are named and organized
+in addition to providing documentation on how the files are named and organized
 for us to `zarryify the data <https://pangeo-forge.readthedocs.io/en/latest/tutorials/netcdf_zarr_sequential.html>`_ and pull them onto the cloud storage.
 
 Depending on the success of the four regions, we plan to expand our analysis up to 10 cross-over regions.
