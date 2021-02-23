@@ -28,7 +28,7 @@ The four regions are :
 Please also provide information on the equation of state for density
 and a grid file which contains information regarding land masks and grid spacings etc.
 
-If the native grid of the model is not Cartesian and/or in geopotential coordinates, we ask the modelling group to either i) provide the outputs re-gridded onto a Cartesian geopotential coordinate
+If the native grid of the model is unstructured and/or not in geopotential coordinates, we ask the modelling group to either i) provide the outputs re-gridded onto a structured geopotential coordinate
 or
 ii) provide us with scripts to do the re-gridding (preferably in Python so that we can execute them on the Jupyterhub).
 
