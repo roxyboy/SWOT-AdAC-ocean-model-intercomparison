@@ -38,11 +38,12 @@ along with the SWOT fast-sampling-phase trajectories:
     :alt: alternate text
     :figclass: align-center
 
+
 Pending on the success of these four regions, we will increase the number of regions to 10.
 If you would like to contribute with your dataset, please read the `Consortium Agreement <./Consortium-Agreement.rst>`_
 and reach out to us by raising an
 `issue on Github <https://github.com/roxyboy/SWOT-AdAC-ocean-model-intercomparison/issues>`_.
-We are currently in the process of setting up a project-specific cloud storage and `Jupyterhub <https://swot-ocean-pangeo.pilot.2i2c.cloud/>`_
+We are currently in the process of fluxing data to the `OSN cloud storage <https://www.openstoragenetwork.org/>`_ and `Jupyterhub <https://meom-ige.2i2c.cloud/>`_ maintained by `2i2c <https://2i2c.org/>`_
 where collaborators involved would have access to the data and Python-based analytical tools.
 In order to allow for efficient cloud storage, we will ask you to provide the regional dataset in
 the format detailed in the `Data Request <https://github.com/roxyboy/SWOT-AdAC-ocean-model-intercomparison/blob/master/Data-Request.rst>`_.
