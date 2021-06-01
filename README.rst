@@ -12,7 +12,7 @@ Simulation name   Basin coverage   Resolution               Model    Institution
 ================  ===============  =======================  =======  ============
 eNATL60_          North Atlantic   :math:`1/60`             NEMO     MEOM
 MEDWEST60_        Mediterranean    :math:`1/60` (ensemble)  NEMO     MEOM
-GIGATL            Atlantic         :math:`1 km`             CROCO    LOPS
+GIGATL_           Atlantic         :math:`1 km`             CROCO    LOPS
 HYCOM50           North Atlantic   :math:`1/50`             HYCOM    COAPS
 llc4320_          Global           :math:`1/48`             MITgcm   JPL
 lNALT60           Agulhas region   :math:`1/60`             NEMO     GEOMAR
@@ -22,6 +22,7 @@ SM-telescope_     North Atlantic   :math:`600 m`            ICON-O   MPI-M
 
 .. _eNATL60: https://vimeo.com/300943265
 .. _MEDWEST60: https://presentations.copernicus.org/EGU2020/EGU2020-11127_presentation.pdf
+.. _GIGATL: https://github.com/Mesharou/GIGATL
 .. _llc4320: https://catalog.pangeo.io/browse/master/ocean/LLC4320/
 .. _SM-telescope: https://mpimet.mpg.de/en/communication/multimedia/visualizations/translate-to-englisch-submesoscale-telescope-experiment
 
