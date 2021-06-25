@@ -21,7 +21,7 @@ SM-telescope_     North Atlantic   :math:`600 m`            ICON-O   MPI-M
 ================  ===============  =======================  =======  ============
 
 .. _eNATL60: https://github.com/ocean-next/eNATL60
-.. _MEDWEST60: https://presentations.copernicus.org/EGU2020/EGU2020-11127_presentation.pdf
+.. _MEDWEST60: https://github.com/ocean-next/MEDWEST60
 .. _GIGATL: https://github.com/Mesharou/GIGATL
 .. _llc4320: https://catalog.pangeo.io/browse/master/ocean/LLC4320/
 .. _SM-telescope: https://mpimet.mpg.de/en/communication/multimedia/visualizations/translate-to-englisch-submesoscale-telescope-experiment
