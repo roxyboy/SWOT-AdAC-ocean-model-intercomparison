@@ -15,6 +15,8 @@ MEDWEST60_        Mediterranean    :math:`1/60` (ensemble)  NEMO     MEOM
 GIGATL_           Atlantic         :math:`1 km`             CROCO    LOPS
 HYCOM50           North Atlantic   :math:`1/50`             HYCOM    COAPS
 llc4320_          Global           :math:`1/48`             MITgcm   JPL
+GEOS-MITgcm_      Global (coupled) :math:`1/24`             MITgcm   JPL
+ORCA36            Global           :math:`1/36`             NEMO     MOI
 lNALT60           Agulhas region   :math:`1/60`             NEMO     GEOMAR
 FESOM             North Atlantic   :math:`1 km`             FESOM    AWI
 SM-telescope_     North Atlantic   :math:`600 m`            ICON-O   MPI-M
@@ -24,6 +26,7 @@ SM-telescope_     North Atlantic   :math:`600 m`            ICON-O   MPI-M
 .. _MEDWEST60: https://github.com/ocean-next/MEDWEST60
 .. _GIGATL: https://github.com/Mesharou/GIGATL
 .. _llc4320: https://catalog.pangeo.io/browse/master/ocean/LLC4320/
+.. _GEOS-MITgcm: https://doi.org/10.5194/egusphere-egu21-14947
 .. _SM-telescope: https://mpimet.mpg.de/en/communication/multimedia/visualizations/translate-to-englisch-submesoscale-telescope-experiment
 
 The initial four regions of study will be in the Gulf Stream (78W-68W, 30N-40N; region 1),
