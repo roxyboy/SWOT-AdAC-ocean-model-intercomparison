@@ -7,20 +7,20 @@ we would like to formulate a baseline
 to compare the upcoming observations of submesoscale turbulence.
 The models we currently have in mind are summarized in the following table:
 
-================  ===============  =======================  =======  ============
-Simulation name   Basin coverage   Resolution               Model    Institution
-================  ===============  =======================  =======  ============
-eNATL60_          North Atlantic   :math:`1/60`             NEMO     MEOM
-MEDWEST60_        Mediterranean    :math:`1/60` (ensemble)  NEMO     MEOM
-GIGATL_           Atlantic         :math:`1 km`             CROCO    LOPS
-HYCOM50           North Atlantic   :math:`1/50`             HYCOM    COAPS
-llc4320_          Global           :math:`1/48`             MITgcm   JPL
-GEOS-MITgcm_      Global (coupled) :math:`1/24`             MITgcm   JPL
-ORCA36            Global           :math:`1/36`             NEMO     MOI
-lNALT60           Agulhas region   :math:`1/60`             NEMO     GEOMAR
-FESOM             North Atlantic   :math:`1 km`             FESOM    AWI
-SM-telescope_     North Atlantic   :math:`600 m`            ICON-O   MPI-M
-================  ===============  =======================  =======  ============
+================  ================  =======================  =======  ============
+Simulation name   Basin coverage    Resolution               Model    Institution
+================  ================  =======================  =======  ============
+eNATL60_          North Atlantic    :math:`1/60`             NEMO     MEOM
+MEDWEST60_        Mediterranean     :math:`1/60` (ensemble)  NEMO     MEOM
+GIGATL_           Atlantic          :math:`1 km`             CROCO    LOPS
+HYCOM50           North Atlantic    :math:`1/50`             HYCOM    COAPS
+llc4320_          Global            :math:`1/48`             MITgcm   JPL
+GEOS-MITgcm_      Global (coupled)  :math:`1/24`             MITgcm   JPL
+ORCA36            Global            :math:`1/36`             NEMO     MOI
+lNALT60           Agulhas region    :math:`1/60`             NEMO     GEOMAR
+FESOM             North Atlantic    :math:`1 km`             FESOM    AWI
+SM-telescope_     North Atlantic    :math:`600 m`            ICON-O   MPI-M
+================  ================  =======================  =======  ============
 
 .. _eNATL60: https://github.com/ocean-next/eNATL60
 .. _MEDWEST60: https://github.com/ocean-next/MEDWEST60
