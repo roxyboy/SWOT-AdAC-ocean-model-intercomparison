@@ -36,9 +36,8 @@ The regions are shown in the figure below
 along with the SWOT fast-sampling-phase trajectories:
 
 .. figure:: ./img/SWOT-Xover-paths.png
-    :width: 300px
+    :width: 50%
     :align: center
-    :height: 280px
     :alt: alternate text
     :figclass: align-center
 
